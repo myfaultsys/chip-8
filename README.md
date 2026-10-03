@@ -1,17 +1,8 @@
 ![Showcase](assets/showcase.png)
 
 # chip-8
-Implementation of a Chip-8 interpreter.
+Implementation of a Chip-8 interpreter in C.
 
-
-## Table of Contents
-- Features
-- Screenshots
-- Installation
-- Usage
-- Controls
-- Dependencies
-- License
 
 
 ## Features
@@ -44,16 +35,14 @@ mkdir build && cd build
 cmake .. && make
 ```
 
-
 ## Usage
 
-The executable takes the path to a ROM as a command line interface argument i.e. run
+The executable takes the path to a ROM as a command line argument i.e. run
 ```
 ./chip8 roms/<rom_name
 ```
 
-
-## Controlls
+## Controls
 
 |Keyboard    |    CHIP-8 |
 |------------|-----------|
@@ -61,8 +50,3 @@ The executable takes the path to a ROM as a command line interface argument i.e.
 | Q W E R        |    4 5 6 D   |
 | A S D F        |    7 8 9 E   |
 | Y X C V        |    A 0 B F   |
-
-
-## License
-
-This project is licensed under the **GNU General Public License v3.0** (or later).
